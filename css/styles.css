@@ -1,0 +1,38 @@
+h1{
+    color:rgb(129, 0, 250);
+    font-size:50px;
+    text-align: center;
+    border: solid 10px;
+}
+
+h2{
+    color:rgb(129, 0, 250);
+}
+
+h3{
+    color:rgb(129, 0, 250);
+    font-size: 25px;
+}
+
+a{
+    color: rgb(163, 68, 252);
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(226, 196, 255);
+    font-style: italic;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+li{
+    font-size: 20px;
+}
+
+img{
+    width: 1840px;
+}
