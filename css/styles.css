@@ -3,6 +3,7 @@ h1{
     font-size:50px;
     text-align: center;
     border: solid 10px;
+    padding: 10px;
 }
 
 h2{
@@ -12,6 +13,7 @@ h2{
 h3{
     color:rgb(129, 0, 250);
     font-size: 25px;
+    text-align: center;
 }
 
 a{
@@ -26,7 +28,7 @@ body{
 
 p{
     font-size: 20px;
-
+    text-align: center;
 }
 
 li{
@@ -34,5 +36,6 @@ li{
 }
 
 img{
-    width: 1840px;
+    width: 1820px;
+    border: solid rgb(129, 0, 250) 10px;
 }
