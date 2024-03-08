@@ -32,10 +32,33 @@ p{
 }
 
 li{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 img{
-    width: 1820px;
+    width: 1780px;
     border: solid rgb(129, 0, 250) 10px;
+    text-align: center;
+}
+
+div{
+    padding: 10px;
+    border: solid 10px rgb(129, 0, 250);
+}
+
+span {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#id1{
+    border: solid 2px rgb(209, 176, 240);
+    border-radius: 10px;
+    background-color: rgb(198, 152, 240);
+}
+
+.grupo{
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 25px;
 }
