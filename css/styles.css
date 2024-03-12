@@ -18,7 +18,7 @@ h3{
 
 a{
     color: rgb(163, 68, 252);
-    font-size: 20px;
+    font-size: 22px;
 }
 
 body{
@@ -52,8 +52,8 @@ span {
 }
 
 #id1{
-    border: solid 2px rgb(209, 176, 240);
-    border-radius: 10px;
+    border: solid 2px  blueviolet;
+    border-radius: 7px;
     background-color: rgb(198, 152, 240);
 }
 
@@ -61,4 +61,8 @@ span {
     font-weight: bold;
     color: blueviolet;
     font-size: 25px;
+}
+
+iframe{
+    padding: 25px;
 }
