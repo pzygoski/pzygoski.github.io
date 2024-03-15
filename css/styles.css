@@ -8,6 +8,7 @@ h1{
 
 h2{
     color:rgb(129, 0, 250);
+    text-align: center;
 }
 
 h3{
@@ -19,6 +20,9 @@ h3{
 a{
     color: rgb(163, 68, 252);
     font-size: 22px;
+    display: block;
+    margin: auto;
+    width: max-content;
 }
 
 body{
@@ -65,4 +69,14 @@ span {
 
 iframe{
     padding: 25px;
+}
+
+#id2{
+    width: 600px;
+    height: 350px;
+    display: block;
+    margin: auto;
+    size: 20px;
+    padding: 10px;
+    border: solid 5px rgb(129, 0, 250);
 }
