@@ -118,3 +118,13 @@ header{
     background-color: rgb(206, 154, 255);
     background-repeat: no-repeat;
 }
+
+#playlist{
+    margin-top: 90px;
+    width: 640px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
