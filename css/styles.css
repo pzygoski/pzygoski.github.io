@@ -1,9 +1,10 @@
 h1{
-    color:rgb(129, 0, 250);
+    color:rgb(132, 0, 255);
     font-size:50px;
     text-align: center;
     border: solid 10px;
     padding: 10px;
+    margin-top: 90px;
 }
 
 h2{
@@ -17,17 +18,11 @@ h3{
     text-align: center;
 }
 
-a{
-    color: rgb(163, 68, 252);
-    font-size: 22px;
-    display: block;
-    margin: auto;
-    width: max-content;
-}
 
 body{
     background-color: rgb(226, 196, 255);
     font-style: italic;
+    padding: 2px;
 }
 
 p{
@@ -35,14 +30,16 @@ p{
     text-align: center;
 }
 
-li{
+.integrantes{
     font-size: 22px;
 }
 
 img{
     width: 1780px;
-    border: solid rgb(129, 0, 250) 10px;
-    text-align: center;
+    display: block;
+    margin: auto;
+    size: 20px;
+    padding: 10px;
 }
 
 div{
@@ -55,23 +52,25 @@ span {
     color: blueviolet;
 }
 
-#id1{
+.ancora{
     border: solid 2px  blueviolet;
     border-radius: 7px;
     background-color: rgb(198, 152, 240);
+    display: inline;
 }
 
 .grupo{
     font-weight: bold;
     color: blueviolet;
     font-size: 25px;
+    margin-top: 100px;
 }
 
 iframe{
     padding: 25px;
 }
 
-#id2{
+.musicas{
     width: 600px;
     height: 350px;
     display: block;
@@ -79,4 +78,43 @@ iframe{
     size: 20px;
     padding: 10px;
     border: solid 5px rgb(129, 0, 250);
+}
+
+#id3{
+    text-align: center;
+}
+
+ul{
+    margin-left: 00px;
+}
+
+li{
+    display: inline;
+    margin-left:15px;
+}
+
+a{
+    color: rgb(163, 68, 252);
+    font-size: 22px;
+    display: inline;
+    margin: auto;
+    width: max-content;
+    text-align: center;
+}
+
+a:hover{
+    color:aliceblue;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: rgb(206, 154, 255);
+    background-repeat: no-repeat;
 }
