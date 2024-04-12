@@ -55,7 +55,7 @@ li{
 }
 
 a{
-    color: rgb(163, 68, 252);
+    color: rgb(132, 0, 255);
     font-size: 22px;
     display: inline;
     margin: auto;
@@ -108,6 +108,16 @@ nav ul li {
 nav ul li:first-child {
     margin-left: 0; 
 }
+
+footer {
+    background-color: rgb(165, 85, 240);
+    color: white; 
+    text-align: center; 
+    padding: 80px; 
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
 
 
 #playlist{
