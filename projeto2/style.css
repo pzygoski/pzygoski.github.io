@@ -4,8 +4,9 @@
 }
 
 body {
-    width: 100%;
+    width: calc(100% - 30px);
     text-align: center;
+    padding: 10px;
 }
 
 h1{
@@ -18,7 +19,7 @@ h1{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 
@@ -26,14 +27,6 @@ h2{
 
 dl{
     font-size: 20px;
-}
-
-.listaTeclados{
-    border: solid #222;
-    width: calc(100%-20px);
-    max-width: 553px;
-    display: block;
-    margin: auto;
 }
 
 p{
@@ -54,12 +47,26 @@ img{
 span{
     font-weight: bold;
 }
+    
 
-.foto-teclado{
-    width: 100%;
-    background-image: url(img/keyboard.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.listaTeclados, .listaComponentes, .listaMarcas, .listaTecnicas{
+    border: solid #222;
+    width: 310px;
+    max-width: 553px;
+    margin: auto;
+    height: 210px
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#oqe{
+    padding-bottom: 50px;
 }
