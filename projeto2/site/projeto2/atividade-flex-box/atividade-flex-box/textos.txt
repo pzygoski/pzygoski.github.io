@@ -1,0 +1,70 @@
+Parágrafo:
+    Dinâmico - Flexivel - Eficiante
+
+Título (h1):
+    Flexbox: Flexible Box Layout Module
+
+Parágrafo:
+    Uma maneira mais eficiente de dispor, alinhar e distribuir espaço entre itens em um contêiner, mesmo quando seu tamanho é desconhecido e/ou dinâmico
+
+
+Subtítulo nível 2:
+    Propriedade para o elemento pai
+
+Subtítulo nível 3:
+    display: flex;
+
+Parágrafo:
+    Define um display flexível para um elemento, tornando-o um contêiner flexível para seus itens.
+
+Subtítulo nível 3:
+    flex-direction: row;
+
+Parágrafo:
+    Estabelece o eixo principal, definindo assim a direção em que os itens flex são colocados no contêiner flex. Flexbox é um conceito de layout de direção única. Pense nos itens flex como dispostos principalmente em linhas horizontais ou colunas verticais.
+  
+Subtítulo nível 3:
+    flex-wrap: wrap
+
+Parágrafo:
+    Por padrão, os itens flex tentarão se encaixar em uma linha. Você pode mudar isso e permitir que os itens se ajustem conforme necessário com esta propriedade.
+
+
+Subtítulo nível 3:
+    justify-content
+
+Parágrafo:
+    Define o alinhamento ao longo do eixo principal. Ajuda a distribuir o espaço livre extra restante quando todos os itens flexíveis em uma linha são inflexíveis ou são flexíveis, mas atingiram seu tamanho máximo.
+
+Subtítulo nível 3:
+    align-itens
+
+Parágrafo:
+    Isto define o comportamento padrão de como os itens flex são dispostos ao longo do eixo transversal na linha atual. Pense nisso como a justify-content versão para o eixo transversal (perpendicular ao eixo principal).
+
+Subtítulo nível 3:
+    gap, row-gap, column-gap</h3>
+
+Parágrafo:
+    A propriedade gap controla o espaçamento entre os itens flexíveis. Você pode definir um espaçamento padrão para todas as direções ou especificar espaçamentos diferentes para as linhas e colunas.
+
+Subtítulo nível 2:
+    Propriedade para os elementos filhos
+
+Subtítulo nível 3:
+    flex-grow;
+
+
+Parágrafo:
+    Define a capacidade de um item flex crescer, se necessário. Ele distribui o espaço extra ao longo do eixo principal. Se todos os itens flexíveis tiverem flex-grow definido como 1, o espaço extra será distribuído igualmente entre eles. Valores negativos são inválidos. O valor padrão é 0.
+
+Subtítulo nível 3:
+    flex-shrink;
+
+Parágrafo:
+    Define a capacidade de um item flexível encolher, se necessário. O valor inicial é 1.
+
+Subtítulo nível 3:
+    flex-basis;
+Parágrafo:
+    Define o tamanho inicial de um item flexível antes que o espaço extra seja distribuído. O valor padrão é auto. Pode ser um valor fixo (em px, em, rem, etc.) ou um valor relativo (porcentagem).
