@@ -47,7 +47,6 @@ img{
 span{
     font-weight: bold;
 }
-    
 
 .listaTeclados, .listaComponentes, .listaMarcas, .listaTecnicas{
     border: solid var(--cor1) 3px;
@@ -85,4 +84,51 @@ span{
 a{
     color: var(--cor1);
     text-decoration: none;
+}
+
+.conteudoPagina2{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.listaPagina2{
+    text-align: left;
+    font-size: 25px;
+}
+
+.listaArranjador{
+    padding-bottom: 10px;
+}
+
+.linkItens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.comprarTeclado{
+    color: var(--cor1);
+    font-size: 20px;
+    background-color:  rgb(99, 170, 202);
+    width: 147px;
+    height: 45px;
+    border: solid 5px  rgb(99, 170, 202);
+    border-radius: 10px;
+}
+
+.fotoPag2{
+    border: solid 5px rgb(99, 170, 202);
+}
+
+h3{
+    padding-top: 20px;
+}
+
+.legendaImg{
+    font-size: 20px;
+    margin: 5px;
 }
