@@ -1,6 +1,7 @@
 :root{
     --cor1: #000000;
     --cor2: #ffffff;
+    --corPrincipal: rgb(197, 233, 252)
 }
 
 body {
@@ -23,6 +24,10 @@ h2{
     font-weight: bold;
     text-align: center;
 
+}
+
+.h2pagina2{
+    padding-top: 40px;
 }
 
 dl{
@@ -96,7 +101,7 @@ a{
     font-size: 25px;
 }
 
-.listaArranjador{
+.listaCaracteristicas{
     padding-bottom: 10px;
 }
 
@@ -121,7 +126,7 @@ a{
 }
 
 .fotoPag2{
-    border: solid 5px rgb(99, 170, 202);
+    border: double  10px rgb(99, 170, 202);
 }
 
 h3{
