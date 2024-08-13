@@ -1,7 +1,6 @@
 :root{
     --cor1: #000000;
     --cor2: #ffffff;
-    --corPrincipal: rgb(197, 233, 252)
 }
 
 body {
@@ -17,8 +16,6 @@ h1{
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
-    min-width: 300px;
-    word-wrap: break-word;
 }
 
 h2{
@@ -26,12 +23,6 @@ h2{
     font-weight: bold;
     text-align: center;
 
-}
-
-.h2pagina2{
-    padding-top: 40px;
-    font-size: 40px;
-    word-wrap: break-word;
 }
 
 dl{
@@ -105,7 +96,7 @@ a{
     font-size: 25px;
 }
 
-.listaCaracteristicas{
+.listaArranjador{
     padding-bottom: 10px;
 }
 
@@ -117,7 +108,6 @@ a{
     align-items: center;
     gap: 10px;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .comprarTeclado{
@@ -131,7 +121,7 @@ a{
 }
 
 .fotoPag2{
-    border: double  10px rgb(99, 170, 202);
+    border: solid 5px rgb(99, 170, 202);
 }
 
 h3{
@@ -141,11 +131,4 @@ h3{
 .legendaImg{
     font-size: 20px;
     margin: 5px;
-}
-
-.listaMarcasPag3{
-    font-size: 25px;
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
