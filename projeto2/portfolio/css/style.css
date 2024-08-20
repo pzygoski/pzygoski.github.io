@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+body{
+    background-image: linear-gradient( rgb(255, 171, 213),  rgb(255, 206, 230));
+}
+
+.pagInicial{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 460px;
+    margin-bottom: 258px;
+    width: 1000px;
+    height: 60vh;
+}
