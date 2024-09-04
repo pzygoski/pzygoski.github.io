@@ -13,6 +13,7 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 130px;
+    margin-top: 10px;
 }
 
 footer p{
