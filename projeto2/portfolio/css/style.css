@@ -108,6 +108,8 @@ ol, ul{
     margin: 10px;
     border: 10px double rgb(255, 66, 66);
     margin-bottom: 75%;
+    display: block;
+    margin: auto;
 }
 
 .form label{
@@ -160,7 +162,6 @@ ol, ul{
     text-decoration: none;
     color: white;
 }
-
 
 .botaoProjeto:hover{
     box-shadow: 3px 3px 10px black;
