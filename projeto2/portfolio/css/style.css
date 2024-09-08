@@ -164,13 +164,17 @@ ol, ul{
 }
 
 .botaoProjeto:hover{
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 10px rgb(247, 51, 51);
 }
 
 .cardProjeto img{
     width: 80%;
     height: 35%;
     margin-bottom: 8%;
+}
+
+.cardProjeto:hover{
+    box-shadow: 3px 3px 10px 3px rgb(247, 51, 51);
 }
 
 .sectionProjeto{
