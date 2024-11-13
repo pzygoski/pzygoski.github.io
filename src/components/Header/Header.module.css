@@ -1,0 +1,12 @@
+.lista {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:black;
+    color: white;
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 10px;
+}
